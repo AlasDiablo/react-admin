@@ -1,8 +1,11 @@
 import * as React from 'react';
 import { Children, isValidElement, ReactNode } from 'react';
-import { styled } from '@mui/material/styles';
-import { Stack } from '@mui/material';
-import { ResponsiveStyleValue, SxProps } from '@mui/system';
+import styled from '@mui/material/styles/styled';
+import Stack from '@mui/material/Stack';
+import {
+    ResponsiveStyleValue,
+    SxProps,
+} from '@mui/system/styleFunctionSx/styleFunctionSx';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import {

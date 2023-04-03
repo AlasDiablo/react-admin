@@ -1,7 +1,12 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { List, ListItem, ListItemText, Menu, MenuItem } from '@mui/material';
-import { styled, alpha } from '@mui/material/styles';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import styled from '@mui/material/styles/styled';
+import { alpha } from '@mui/system/colorManipulator';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { useTranslate } from 'ra-core';
 import clsx from 'clsx';

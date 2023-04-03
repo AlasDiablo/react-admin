@@ -1,14 +1,12 @@
 import * as React from 'react';
 import { FormEvent, useState } from 'react';
-import {
-    Button,
-    Card,
-    CardActions,
-    CardContent,
-    Snackbar,
-    TextField,
-    Typography,
-} from '@mui/material';
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import Snackbar from '@mui/material/Snackbar';
+import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
 import { Application } from './types';
 
 export const NewApplicationForm = ({

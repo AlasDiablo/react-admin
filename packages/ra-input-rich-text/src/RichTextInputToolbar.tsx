@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ReactNode } from 'react';
-import { styled } from '@mui/material/styles';
+import styled from '@mui/material/styles/styled';
 import {
     AlignmentButtons,
     ClearButtons,

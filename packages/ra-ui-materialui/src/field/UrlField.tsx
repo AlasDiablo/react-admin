@@ -2,7 +2,8 @@ import * as React from 'react';
 import { AnchorHTMLAttributes, memo, FC } from 'react';
 import get from 'lodash/get';
 import { sanitizeFieldRestProps } from './sanitizeFieldRestProps';
-import { Typography, Link } from '@mui/material';
+import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 import { useRecordContext, useTranslate } from 'ra-core';
 import { PublicFieldProps, InjectedFieldProps, fieldPropTypes } from './types';
 

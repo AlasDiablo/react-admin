@@ -10,8 +10,9 @@ import {
     I18nContextProvider,
 } from 'ra-core';
 import { createMemoryHistory } from 'history';
-import { ThemeProvider, Stack } from '@mui/material';
-import { createTheme } from '@mui/material/styles';
+import ThemeProvider from '@mui/material/styles/ThemeProvider';
+import createTheme from '@mui/material/styles/createTheme';
+import Stack from '@mui/material/Stack';
 import polyglotI18nProvider from 'ra-i18n-polyglot';
 import englishMessages from 'ra-language-english';
 

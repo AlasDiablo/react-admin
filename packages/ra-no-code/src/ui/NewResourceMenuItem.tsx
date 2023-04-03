@@ -1,15 +1,12 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
+import styled from '@mui/material/styles/styled';
 import { MouseEvent, ReactElement, useState } from 'react';
 import AddIcon from '@mui/icons-material/Add';
 import { ImportResourceDialog } from './ImportResourceDialog';
-import {
-    ListItemIcon,
-    ListItemText,
-    MenuItem,
-    MenuItemProps,
-    Tooltip,
-} from '@mui/material';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import MenuItem, { MenuItemProps } from '@mui/material/MenuItem';
+import Tooltip from '@mui/material/Tooltip';
 
 const PREFIX = 'RaMenuItemLink';
 

@@ -9,9 +9,12 @@ import {
     useState,
 } from 'react';
 import PropTypes from 'prop-types';
-import { ResponsiveStyleValue, SxProps } from '@mui/system';
-import { styled } from '@mui/material/styles';
-import { Divider } from '@mui/material';
+import {
+    ResponsiveStyleValue,
+    SxProps,
+} from '@mui/system/styleFunctionSx/styleFunctionSx';
+import styled from '@mui/material/styles/styled';
+import Divider from '@mui/material/Divider';
 import { Outlet, Routes, Route } from 'react-router-dom';
 import {
     RaRecord,

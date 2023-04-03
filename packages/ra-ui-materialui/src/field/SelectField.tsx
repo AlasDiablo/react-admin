@@ -8,7 +8,7 @@ import {
     useRecordContext,
     useTranslate,
 } from 'ra-core';
-import { Typography, TypographyProps } from '@mui/material';
+import Typography, { TypographyProps } from '@mui/material/Typography';
 
 import { sanitizeFieldRestProps } from './sanitizeFieldRestProps';
 import { PublicFieldProps, InjectedFieldProps, fieldPropTypes } from './types';

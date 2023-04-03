@@ -1,13 +1,11 @@
 import * as React from 'react';
 import { useRef, useCallback, useEffect } from 'react';
-import {
-    List,
-    ListItem,
-    ListItemText,
-    ListItemIcon,
-    Button,
-    Typography,
-} from '@mui/material';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 import { useInfiniteGetList } from '..';
 
 import { CoreAdminContext } from '../core';

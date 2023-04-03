@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { ReactNode } from 'react';
 import PropTypes from 'prop-types';
-import { Card } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import Card from '@mui/material/Card';
+import styled from '@mui/material/styles/styled';
 import { RaRecord, CreateControllerProps, useCreateContext } from 'ra-core';
 import clsx from 'clsx';
 

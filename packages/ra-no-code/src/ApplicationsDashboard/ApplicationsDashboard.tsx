@@ -1,17 +1,16 @@
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import { useState } from 'react';
-import {
-    Avatar,
-    Card,
-    Container,
-    List,
-    ListItem,
-    ListItemAvatar,
-    ListItemText,
-    Typography,
-} from '@mui/material';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Avatar from '@mui/material/Avatar';
+import Card from '@mui/material/Card';
+import Container from '@mui/material/Container';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemAvatar from '@mui/material/ListItemAvatar';
+import ListItemText from '@mui/material/ListItemText';
+import Typography from '@mui/material/Typography';
+import createTheme from '@mui/material/styles/createTheme';
+import ThemeProvider from '@mui/material/styles/ThemeProvider';
 import { defaultTheme as RaDefaultTheme, RaThemeOptions } from 'react-admin';
 import FolderIcon from '@mui/icons-material/Folder';
 import { Application } from './types';

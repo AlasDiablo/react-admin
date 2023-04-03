@@ -2,8 +2,9 @@ import * as React from 'react';
 import { FC, memo, ReactNode } from 'react';
 import PropTypes from 'prop-types';
 import get from 'lodash/get';
-import { Typography, SxProps } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import Typography from '@mui/material/Typography';
+import { SxProps } from '@mui/system/styleFunctionSx/styleFunctionSx';
+import styled from '@mui/material/styles/styled';
 import ErrorIcon from '@mui/icons-material/Error';
 import {
     useReference,

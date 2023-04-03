@@ -1,8 +1,10 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
+import styled from '@mui/material/styles/styled';
 import { ReactElement, memo } from 'react';
 import PropTypes from 'prop-types';
-import { Fab, useMediaQuery, Theme } from '@mui/material';
+import { Theme } from '@mui/material/styles/createTheme';
+import Fab from '@mui/material/Fab';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import ContentAdd from '@mui/icons-material/Add';
 import clsx from 'clsx';
 import { Link } from 'react-router-dom';

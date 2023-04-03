@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ToggleButton, ToggleButtonProps } from '@mui/material';
+import ToggleButton, { ToggleButtonProps } from '@mui/material/ToggleButton';
 import ImageIcon from '@mui/icons-material/Image';
 import { useTranslate } from 'ra-core';
 import { useTiptapEditor } from '../useTiptapEditor';

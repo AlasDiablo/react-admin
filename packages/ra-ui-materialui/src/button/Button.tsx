@@ -1,16 +1,12 @@
 import * as React from 'react';
 import { ReactElement, ElementType } from 'react';
 import PropTypes from 'prop-types';
-import {
-    Button as MuiButton,
-    ButtonProps as MuiButtonProps,
-    Tooltip,
-    IconButton,
-    useMediaQuery,
-    PropTypes as MuiPropTypes,
-    Theme,
-} from '@mui/material';
-import { styled } from '@mui/material/styles';
+import MuiButton, { ButtonProps as MuiButtonProps } from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
+import IconButton from '@mui/material/IconButton';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { Theme } from '@mui/material/styles/createTheme';
+import styled from '@mui/material/styles/styled';
 import { useTranslate } from 'ra-core';
 import { Path } from 'react-router';
 
@@ -94,7 +90,7 @@ interface Props {
     alignIcon?: 'left' | 'right';
     children?: ReactElement;
     className?: string;
-    color?: MuiPropTypes.Color;
+    color?: 'inherit' | 'primary' | 'secondary' | 'default';
     component?: ElementType;
     to?: string | LocationDescriptor;
     disabled?: boolean;

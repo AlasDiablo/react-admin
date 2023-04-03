@@ -2,8 +2,9 @@ import * as React from 'react';
 import { isValidElement, ReactElement, ReactNode } from 'react';
 import PropTypes from 'prop-types';
 import { Link, useLocation } from 'react-router-dom';
-import { Tab as MuiTab, TabProps as MuiTabProps, Stack } from '@mui/material';
-import { ResponsiveStyleValue } from '@mui/system';
+import MuiTab, { TabProps as MuiTabProps } from '@mui/material/Tab';
+import Stack from '@mui/material/Stack';
+import { ResponsiveStyleValue } from '@mui/system/styleFunctionSx/styleFunctionSx';
 import { useTranslate, RaRecord } from 'ra-core';
 import clsx from 'clsx';
 

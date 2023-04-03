@@ -3,7 +3,8 @@ import { Fragment, ReactElement } from 'react';
 import PropTypes from 'prop-types';
 import ActionDelete from '@mui/icons-material/Delete';
 import inflection from 'inflection';
-import { alpha, styled } from '@mui/material/styles';
+import { alpha } from '@mui/system/colorManipulator';
+import styled from '@mui/material/styles/styled';
 import {
     MutationMode,
     useDeleteMany,

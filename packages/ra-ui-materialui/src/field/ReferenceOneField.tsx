@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import PropTypes from 'prop-types';
 import { UseQueryOptions } from 'react-query';
-import { Typography } from '@mui/material';
+import Typography from '@mui/material/Typography';
 import {
     useReferenceOneFieldController,
     useRecordContext,

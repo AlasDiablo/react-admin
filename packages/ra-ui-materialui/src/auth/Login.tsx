@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { HtmlHTMLAttributes, ReactNode, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { Card, Avatar, SxProps } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import Card from '@mui/material/Card';
+import Avatar from '@mui/material/Avatar';
+import { SxProps } from '@mui/system/styleFunctionSx/styleFunctionSx';
+import styled from '@mui/material/styles/styled';
 import LockIcon from '@mui/icons-material/Lock';
 import { useNavigate } from 'react-router-dom';
 import { useCheckAuth } from 'ra-core';

@@ -14,8 +14,9 @@ import fakeRestDataProvider from 'ra-data-fakerest';
 import polyglotI18nProvider from 'ra-i18n-polyglot';
 import englishMessages from 'ra-language-english';
 import { createMemoryHistory } from 'history';
-import { ThemeProvider, Stack } from '@mui/material';
-import { createTheme } from '@mui/material/styles';
+import Stack from '@mui/material/Stack';
+import ThemeProvider from '@mui/material/styles/ThemeProvider';
+import createTheme from '@mui/material/styles/createTheme';
 
 import { TextField } from '../field';
 import { ReferenceField } from './ReferenceField';

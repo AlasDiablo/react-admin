@@ -1,9 +1,10 @@
 import * as React from 'react';
 import { MouseEventHandler, ReactElement, useCallback } from 'react';
 import { UseMutationOptions } from 'react-query';
-import { styled } from '@mui/material/styles';
+import styled from '@mui/material/styles/styled';
 import PropTypes from 'prop-types';
-import { Button, ButtonProps, CircularProgress } from '@mui/material';
+import Button, { ButtonProps } from '@mui/material/Button';
+import CircularProgress from '@mui/material/CircularProgress';
 import ContentSave from '@mui/icons-material/Save';
 import { useFormContext, useFormState } from 'react-hook-form';
 import {

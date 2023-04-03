@@ -1,5 +1,6 @@
 import React from 'react';
-import { Tooltip, IconButton } from '@mui/material';
+import Tooltip from '@mui/material/Tooltip';
+import IconButton from '@mui/material/IconButton';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { useTranslate } from 'ra-core';

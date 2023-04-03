@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled } from '@mui/material/styles';
+import styled from '@mui/material/styles/styled';
 import { Button } from './Button';
 
 export const SkipNavigationButton = () => {

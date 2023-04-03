@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { styled, SxProps } from '@mui/material';
+import styled from '@mui/material/styles/styled';
+import { SxProps } from '@mui/system/styleFunctionSx/styleFunctionSx';
 import LockIcon from '@mui/icons-material/Lock';
 import PropTypes from 'prop-types';
 import { useTranslate } from 'ra-core';

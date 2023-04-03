@@ -5,8 +5,9 @@ import {
     RecordContextProvider,
     ResourceContextProvider,
 } from 'ra-core';
-import { ThemeProvider, Box } from '@mui/material';
-import { createTheme } from '@mui/material/styles';
+import ThemeProvider from '@mui/material/styles/ThemeProvider';
+import createTheme from '@mui/material/styles/createTheme';
+import Box from '@mui/material/Box';
 
 import { TextField } from '../field';
 import { ReferenceManyField } from './ReferenceManyField';

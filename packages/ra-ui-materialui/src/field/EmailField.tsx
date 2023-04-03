@@ -2,7 +2,7 @@ import * as React from 'react';
 import { memo, FC } from 'react';
 import get from 'lodash/get';
 import Typography from '@mui/material/Typography';
-import { Link, LinkProps } from '@mui/material';
+import Link, { LinkProps } from '@mui/material/Link';
 import { useRecordContext, useTranslate } from 'ra-core';
 
 import { sanitizeFieldRestProps } from './sanitizeFieldRestProps';

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { TextInput, useTranslateLabel } from 'react-admin';
-import { CardContent } from '@mui/material';
+import CardContent from '@mui/material/CardContent';
 import { FieldTypeInput } from './FieldConfiguration/FieldTypeInput';
 import { FieldViewsInput } from './FieldConfiguration/FieldViewsInput';
 import { ConfigurationInputsFromFieldDefinition } from './ConfigurationInputsFromFieldDefinition';

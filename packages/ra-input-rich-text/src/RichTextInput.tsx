@@ -10,8 +10,8 @@ import Image from '@tiptap/extension-image';
 import TextStyle from '@tiptap/extension-text-style';
 import { Color } from '@tiptap/extension-color';
 import Highlight from '@tiptap/extension-highlight';
-import { FormHelperText } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import FormHelperText from '@mui/material/FormHelperText';
+import styled from '@mui/material/styles/styled';
 import { useInput, useResourceContext } from 'ra-core';
 import {
     CommonInputProps,

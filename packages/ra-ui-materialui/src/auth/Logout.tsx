@@ -1,14 +1,12 @@
 import * as React from 'react';
-import { styled, Theme } from '@mui/material/styles';
+import { Theme } from '@mui/material/styles/createTheme';
+import styled from '@mui/material/styles/styled';
 import { useCallback, FunctionComponent, ReactElement } from 'react';
 import PropTypes from 'prop-types';
-import {
-    ListItemIcon,
-    ListItemText,
-    MenuItem,
-    useMediaQuery,
-} from '@mui/material';
-import { MenuItemProps } from '@mui/material/MenuItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import MenuItem, { MenuItemProps } from '@mui/material/MenuItem';
 
 import ExitIcon from '@mui/icons-material/PowerSettingsNew';
 import clsx from 'clsx';

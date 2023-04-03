@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ToggleButton, ToggleButtonProps } from '@mui/material';
+import ToggleButton, { ToggleButtonProps } from '@mui/material/ToggleButton';
 import InsertLink from '@mui/icons-material/InsertLink';
 
 import { useTranslate } from 'ra-core';

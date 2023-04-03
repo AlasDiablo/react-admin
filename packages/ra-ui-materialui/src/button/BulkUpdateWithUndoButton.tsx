@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
+import styled from '@mui/material/styles/styled';
 import { ReactElement } from 'react';
 import PropTypes from 'prop-types';
 import ActionUpdate from '@mui/icons-material/Update';
-import { alpha } from '@mui/material/styles';
+import { alpha } from '@mui/system/colorManipulator';
 import {
     useUpdateMany,
     useRefresh,

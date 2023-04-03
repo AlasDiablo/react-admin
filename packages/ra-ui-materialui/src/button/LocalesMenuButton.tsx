@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { MouseEvent, useState } from 'react';
 import { useLocaleState, useLocales } from 'ra-core';
-import { Box, Button, Menu, MenuItem, styled } from '@mui/material';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import styled from '@mui/material/styles/styled';
 import LanguageIcon from '@mui/icons-material/Translate';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 

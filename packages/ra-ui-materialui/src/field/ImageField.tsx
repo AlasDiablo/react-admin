@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import { Box, Typography } from '@mui/material';
+import styled from '@mui/material/styles/styled';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 import PropTypes from 'prop-types';
 import get from 'lodash/get';
 import { useRecordContext, useTranslate } from 'ra-core';

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { MouseEvent } from 'react';
-import { IconButton, IconButtonProps, Tooltip } from '@mui/material';
+import IconButton, { IconButtonProps } from '@mui/material/IconButton';
+import Tooltip from '@mui/material/Tooltip';
 import { useTranslate } from 'ra-core';
 
 /**

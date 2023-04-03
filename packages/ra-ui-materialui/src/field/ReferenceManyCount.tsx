@@ -6,7 +6,8 @@ import {
     useCreatePath,
     SortPayload,
 } from 'ra-core';
-import { Typography, TypographyProps, CircularProgress } from '@mui/material';
+import Typography, { TypographyProps } from '@mui/material/Typography';
+import CircularProgress from '@mui/material/CircularProgress';
 import ErrorIcon from '@mui/icons-material/Error';
 
 import { PublicFieldProps, InjectedFieldProps } from './types';

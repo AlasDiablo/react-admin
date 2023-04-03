@@ -12,8 +12,8 @@ import {
     useRecordContext,
     useResourceDefinition,
 } from 'ra-core';
-import { styled } from '@mui/material/styles';
-import { SxProps } from '@mui/system';
+import styled from '@mui/material/styles/styled';
+import { SxProps } from '@mui/system/styleFunctionSx/styleFunctionSx';
 
 import { fieldPropTypes, PublicFieldProps, InjectedFieldProps } from './types';
 import { LinearProgress } from '../layout';

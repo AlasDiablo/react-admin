@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
+import styled from '@mui/material/styles/styled';
 import { ReactElement, ReactEventHandler } from 'react';
 import PropTypes from 'prop-types';
-import { alpha } from '@mui/material/styles';
+import { alpha } from '@mui/system/colorManipulator';
 import ActionDelete from '@mui/icons-material/Delete';
 import clsx from 'clsx';
 import { UseMutationOptions } from 'react-query';

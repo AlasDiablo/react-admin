@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { MemoryRouter } from 'react-router-dom';
-import { Divider as MuiDivider } from '@mui/material';
+import MuiDivider from '@mui/material/Divider';
 import {
     RecordContextProvider,
     ResourceContext,

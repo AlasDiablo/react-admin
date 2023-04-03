@@ -1,12 +1,13 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
+import styled from '@mui/material/styles/styled';
 import { memo, FunctionComponent } from 'react';
-import { SvgIconComponent } from '@mui/icons-material';
+import SvgIcon from '@mui/material/SvgIcon';
 import PropTypes from 'prop-types';
 import get from 'lodash/get';
 import DoneIcon from '@mui/icons-material/Done';
 import ClearIcon from '@mui/icons-material/Clear';
-import { Tooltip, Typography, TypographyProps } from '@mui/material';
+import Tooltip from '@mui/material/Tooltip';
+import Typography, { TypographyProps } from '@mui/material/Typography';
 import { useTranslate, useRecordContext } from 'ra-core';
 
 import { PublicFieldProps, InjectedFieldProps, fieldPropTypes } from './types';
@@ -93,8 +94,8 @@ export interface BooleanFieldProps
         Omit<TypographyProps, 'textAlign'> {
     valueLabelTrue?: string;
     valueLabelFalse?: string;
-    TrueIcon?: SvgIconComponent | null;
-    FalseIcon?: SvgIconComponent | null;
+    TrueIcon?: typeof SvgIcon | null;
+    FalseIcon?: typeof SvgIcon | null;
     looseValue?: boolean;
 }
 

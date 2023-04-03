@@ -1,7 +1,7 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { Card } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import Card from '@mui/material/Card';
+import styled from '@mui/material/styles/styled';
 import clsx from 'clsx';
 import { useShowContext, useResourceDefinition } from 'ra-core';
 

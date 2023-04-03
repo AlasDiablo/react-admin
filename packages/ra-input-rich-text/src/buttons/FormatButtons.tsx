@@ -2,11 +2,10 @@ import * as React from 'react';
 import { MouseEvent, useEffect, useState } from 'react';
 
 import { Editor } from '@tiptap/react';
-import {
-    ToggleButton,
-    ToggleButtonGroup,
+import ToggleButton from '@mui/material/ToggleButton';
+import ToggleButtonGroup, {
     ToggleButtonGroupProps,
-} from '@mui/material';
+} from '@mui/material/ToggleButtonGroup';
 import FormatBold from '@mui/icons-material/FormatBold';
 import FormatItalic from '@mui/icons-material/FormatItalic';
 import FormatUnderlined from '@mui/icons-material/FormatUnderlined';

@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { ReactNode } from 'react';
-import { styled } from '@mui/material/styles';
+import styled from '@mui/material/styles/styled';
 import PropTypes from 'prop-types';
-import { Card, CardContent } from '@mui/material';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
 import clsx from 'clsx';
 import {
     EditControllerProps,

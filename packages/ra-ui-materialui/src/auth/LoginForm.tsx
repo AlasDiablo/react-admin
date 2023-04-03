@@ -1,7 +1,9 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
+import styled from '@mui/material/styles/styled';
 import PropTypes from 'prop-types';
-import { Button, CardContent, CircularProgress } from '@mui/material';
+import Button from '@mui/material/Button';
+import CardContent from '@mui/material/CardContent';
+import CircularProgress from '@mui/material/CircularProgress';
 import {
     Form,
     required,

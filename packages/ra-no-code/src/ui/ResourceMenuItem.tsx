@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
-import { styled } from '@mui/material/styles';
+import styled from '@mui/material/styles/styled';
 import { MenuItemLink, MenuItemLinkProps } from 'react-admin';
-import { IconButton } from '@mui/material';
+import IconButton from '@mui/material/IconButton';
 import SettingsIcon from '@mui/icons-material/Settings';
 import DefaultIcon from '@mui/icons-material/ViewList';
 import { NavLink, NavLinkProps } from 'react-router-dom';

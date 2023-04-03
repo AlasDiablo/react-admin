@@ -1,11 +1,8 @@
 import * as React from 'react';
-import {
-    Box,
-    Card,
-    ToggleButton,
-    ToggleButtonGroup,
-    ToggleButtonProps,
-} from '@mui/material';
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import ToggleButton, { ToggleButtonProps } from '@mui/material/ToggleButton';
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import FormatColorTextIcon from '@mui/icons-material/FormatColorText';
 import FontDownloadIcon from '@mui/icons-material/FontDownload';
 import { useTranslate } from 'ra-core';

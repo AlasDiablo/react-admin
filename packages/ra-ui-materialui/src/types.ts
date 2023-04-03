@@ -1,5 +1,5 @@
 import { ReactElement, ReactNode, ElementType } from 'react';
-import { SxProps } from '@mui/system';
+import { SxProps } from '@mui/system/styleFunctionSx/styleFunctionSx';
 import {
     Identifier,
     RaRecord,

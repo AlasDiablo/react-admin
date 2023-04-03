@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Grid, Divider as MuiDivider } from '@mui/material';
+import Grid from '@mui/material/Grid';
+import MuiDivider from '@mui/material/Divider';
 import {
     RecordContextProvider,
     ResourceContext,

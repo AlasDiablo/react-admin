@@ -6,7 +6,7 @@ import { Datagrid } from '../list';
 import { ReferenceArrayField } from './ReferenceArrayField';
 import { TextField } from './TextField';
 import { Show } from '../detail';
-import { CardContent } from '@mui/material';
+import CardContent from '@mui/material/CardContent';
 
 const fakeData = {
     bands: [{ id: 1, name: 'band_1', members: [1, '2', '3'] }],

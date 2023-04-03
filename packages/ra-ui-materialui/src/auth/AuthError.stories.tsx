@@ -4,7 +4,8 @@ import polyglotI18nProvider from 'ra-i18n-polyglot';
 import englishMessages from 'ra-language-english';
 import { AuthError } from './AuthError';
 import { defaultTheme } from '../defaultTheme';
-import { createTheme, ThemeProvider } from '@mui/material';
+import createTheme from '@mui/material/styles/createTheme';
+import ThemeProvider from '@mui/material/styles/ThemeProvider';
 
 export default { title: 'ra-ui-materialui/auth/AuthError' };
 

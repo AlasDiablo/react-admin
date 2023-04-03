@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { ThemeProvider } from '@mui/material';
-import { createTheme } from '@mui/material/styles';
+import ThemeProvider from '@mui/material/styles/ThemeProvider';
+import createTheme from '@mui/material/styles/createTheme';
 import AddIcon from '@mui/icons-material/Add';
 import { Button } from './Button';
 

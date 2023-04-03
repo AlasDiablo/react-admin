@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import { Tab } from '@mui/material';
+import styled from '@mui/material/styles/styled';
+import Tab from '@mui/material/Tab';
 import { useTranslateLabel } from 'react-admin';
 
 const PREFIX = 'FieldConfigurationTab';
